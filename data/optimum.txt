@@ -1,0 +1,7 @@
+# tai20_5-1.txt (Optimum: 1278)
+# tai20_10-1.txt (Optimum: 1582)
+# tai20_20-1.txt (Optimum: 2297)
+# tai50_5-1.txt (Optimum: 2724)
+# tai50_10-1.txt (Optimum: 2991)
+# tai100_5-1.txt (Optimum: 5493)
+# tai200_10-1.txt (Optimum: 10862)
