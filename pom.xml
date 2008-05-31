@@ -11,7 +11,6 @@
 	<name>fssp</name>
 	<url>http://maven.apache.org</url>
 
-
 	<developers>
 		<developer>
 			<id>Daniel</id>
@@ -259,7 +258,7 @@
 			<id>central</id>
 			<url>http://beigesding:8080/artifactory/repo</url>
 			<snapshots>
-				<enabled>false</enabled>
+				<enabled>true</enabled>
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
