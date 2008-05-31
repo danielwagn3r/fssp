@@ -33,12 +33,12 @@
 
 	<scm>
 		<connection>
-			scm:svn:http://beigesding/svn/private/studium/jfssp/trunk/
+			scm:svn:http://beigesding/svn/private/private/jfssp/trunk
 		</connection>
 		<developerConnection>
-			scm:svn:http://beigesding/svn/private/studium/jfssp/trunk/
+			scm:svn:http://beigesding/svn/private/private/jfssp/trunk
 		</developerConnection>
-		<url>http://beigesding/svn/private/studium/jfssp/</url>
+		<url>http://beigesding/svn/private/private/jfssp/</url>
 	</scm>
 
 	<organization>
