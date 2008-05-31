@@ -11,6 +11,13 @@
 	<name>fssp</name>
 	<url>http://maven.apache.org</url>
 
+	<licenses>
+		<license>
+			<name>GNU Public License Version 3</name>
+			<url>http://www.gnu.org/licenses/gpl.html</url>
+		</license>
+	</licenses>
+
 	<developers>
 		<developer>
 			<id>Daniel</id>
@@ -29,6 +36,11 @@
 			<timezone>+1</timezone>
 		</developer>
 	</developers>
+
+	<ciManagement>
+		<system>hudson</system>
+		<url>http://beigesding:8080/hudson</url>
+	</ciManagement>
 
 	<scm>
 		<connection>
