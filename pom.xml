@@ -42,6 +42,21 @@
 		<url>http://beigesding:8080/hudson</url>
 	</ciManagement>
 
+	<distributionManagement>
+		<repository>
+			<id>cemetery</id>
+			<url>
+				dav:http://beigesding:8080/artifactory/libs-releases
+			</url>
+		</repository>
+		<snapshotRepository>
+			<id>cemetery</id>
+			<url>
+				dav:http://beigesding:8080/artifactory/libs-snapshots
+			</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 	<scm>
 		<connection>
 			scm:svn:http://beigesding/svn/private/private/jfssp/trunk
@@ -59,6 +74,13 @@
 
 	<build>
 		<finalName>fssp</finalName>
+		<extensions>
+			<extension>
+				<groupId>org.apache.maven.wagon</groupId>
+				<artifactId>wagon-webdav</artifactId>
+				<version>1.0-beta-2</version>
+			</extension>
+		</extensions>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -254,25 +276,5 @@
 			</plugin>
 		</plugins>
 	</reporting>
-
-	<repositories>
-		<repository>
-			<id>central</id>
-			<url>http://beigesding:8080/artifactory/repo</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
-
-	<pluginRepositories>
-		<pluginRepository>
-			<id>central</id>
-			<url>http://beigesding:8080/artifactory/repo</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</pluginRepository>
-	</pluginRepositories>
 
 </project>
