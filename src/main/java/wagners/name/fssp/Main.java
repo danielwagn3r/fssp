@@ -19,7 +19,7 @@
  * $Id$
  */
 
-package org.kwaxi.jfssp;
+package wagners.name.fssp;
 
 import org.apache.commons.cli.*;
 import org.apache.commons.logging.Log;

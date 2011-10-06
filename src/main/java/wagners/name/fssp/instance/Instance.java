@@ -19,12 +19,19 @@
  * $Id$
  */
 
-package org.kwaxi.jfssp.instance;
+package wagners.name.fssp.instance;
+
+import java.io.Serializable;
 
 /**
  * @author Daniel Wagner <dwkwaxi@gmail.com>
  *
  */
-public interface InstanceReader {
+public class Instance implements Serializable {
+
+	/**
+	 * Generated serial version UID.
+	 */
+	private static final long serialVersionUID = -2971952967869418521L;
 
 }
