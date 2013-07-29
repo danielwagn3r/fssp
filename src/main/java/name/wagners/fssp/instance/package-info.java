@@ -16,7 +16,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * $Id: Main.java 1234 2011-10-06 13:49:28Z WAGNERDA $
+ * $Id$
  */
 
 /**
