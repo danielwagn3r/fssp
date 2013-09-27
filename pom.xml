@@ -80,7 +80,7 @@
 							<mainClass>name.wagners.fssp.Main</mainClass>
 						</manifest>
 						<manifestEntries>
-							<url>${pom.url}</url>
+							<url>${project.url}</url>
 						</manifestEntries>
 					</archive>
 				</configuration>
