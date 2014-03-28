@@ -43,6 +43,22 @@
 		<url>http://www.wagners.name</url>
 	</organization>
 
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <url>https://repo.wagners.name/nexus/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus</id>
+            <url>https://repo.wagners.name/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+     </distributionManagement>
+
+    <scm>
+        <developerConnection>git@git.wagners.name:fssp.git</developerConnection>
+        <connection>git@git.wagners.name:fssp.git</connection>
+    </scm>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
