@@ -1,7 +1,7 @@
 /*
  * FSSP - A Flow Shop Scheduler in Java
  *
- * Copyright (C) 2008  Daniel Wagner <daniel@wagners.name>
+ * Copyright (C) 2014  Daniel Wagner
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,15 +15,10 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- *
- * $Id$
  */
-
 /**
  * Provides the classes necessary to solve the classic Flow-Shop-Scheduling Problem.
  *
  * Contains the Instance related classes.
- *
- * @author Daniel Wagner <daniel@wagners.name>
  */
 package name.wagners.fssp.instance;
