@@ -7,12 +7,13 @@
 	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>fssp</name>
+    <description>A simple Flow-Shop scheduler in Java</description>
 	<url>http://www.wagners.name/fssp</url>
 
 	<parent>
 		<groupId>name.wagners</groupId>
 		<artifactId>maven-parent</artifactId>
-		<version>2</version>
+		<version>3</version>
 	</parent>
 
     <distributionManagement>
