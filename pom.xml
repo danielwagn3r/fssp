@@ -33,9 +33,9 @@
 	</issueManagement>
 
     <scm>
-        <developerConnection>ssh://git@stash.wagners.name:7999/fssp/fssp.git</developerConnection>
-        <connection>ssh://git@stash.wagners.name:7999/fssp/fssp.git</connection>
-        <url>https://stash.wagners.name/projects/FSSP</url>
+        <developerConnection>ssh://git@bitbucket.wagners.name:7999/fssp/fssp.git</developerConnection>
+        <connection>ssh://git@bitbucket.wagners.name:7999/fssp/fssp.git</connection>
+        <url>https://bitbucket.wagners.name/projects/FSSP</url>
     </scm>
 
 	<properties>
